@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com.lxz.Hystrix" />
+        <module name="http-request" />
+        <module name="lxz-ceshi" />
+        <module name="metrics-annotation" />
+        <module name="metrics-benchmarks" />
+        <module name="metrics-core" />
+        <module name="metrics-ehcache" />
+        <module name="metrics-ganglia" />
+        <module name="metrics-graphite" />
+        <module name="metrics-healthchecks" />
+        <module name="metrics-httpasyncclient" />
+        <module name="metrics-httpclient" />
+        <module name="metrics-jdbi" />
+        <module name="metrics-jersey" />
+        <module name="metrics-jersey2" />
+        <module name="metrics-jetty8" />
+        <module name="metrics-jetty9" />
+        <module name="metrics-jetty9-legacy" />
+        <module name="metrics-json" />
+        <module name="metrics-jvm" />
+        <module name="metrics-log4j" />
+        <module name="metrics-log4j2" />
+        <module name="metrics-logback" />
+        <module name="metrics-servlet" />
+        <module name="metrics-servlets" />
+        <module name="parseq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.lxz.Hystrix" target="1.6" />
+      <module name="http-request" target="1.5" />
+      <module name="lxz-ceshi" target="1.8" />
+      <module name="metrics-annotation" target="1.6" />
+      <module name="metrics-benchmarks" target="1.6" />
+      <module name="metrics-core" target="1.6" />
+      <module name="metrics-ehcache" target="1.6" />
+      <module name="metrics-ganglia" target="1.6" />
+      <module name="metrics-graphite" target="1.6" />
+      <module name="metrics-healthchecks" target="1.6" />
+      <module name="metrics-httpasyncclient" target="1.6" />
+      <module name="metrics-httpclient" target="1.6" />
+      <module name="metrics-jdbi" target="1.6" />
+      <module name="metrics-jersey" target="1.6" />
+      <module name="metrics-jersey2" target="1.7" />
+      <module name="metrics-jetty8" target="1.6" />
+      <module name="metrics-jetty9" target="1.7" />
+      <module name="metrics-jetty9-legacy" target="1.7" />
+      <module name="metrics-json" target="1.6" />
+      <module name="metrics-jvm" target="1.6" />
+      <module name="metrics-log4j" target="1.6" />
+      <module name="metrics-log4j2" target="1.6" />
+      <module name="metrics-logback" target="1.6" />
+      <module name="metrics-parent" target="1.6" />
+      <module name="metrics-servlet" target="1.6" />
+      <module name="metrics-servlets" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

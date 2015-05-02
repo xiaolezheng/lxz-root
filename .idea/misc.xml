@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1391761523986" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="$USER_HOME$/qunar/zone/Qunar.xml" />
+    <option name="selectedJavaProfile" value="Qunar" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-annotation" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-ehcache" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-ganglia" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-graphite" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-healthchecks" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-httpasyncclient" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-httpclient" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jdbi" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jersey" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jersey2" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jetty8" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jetty9" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jetty9-legacy" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-json" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-jvm" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-log4j" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-log4j2" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-logback" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-servlet" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-servlets" />
+    <file type="web" url="file://$PROJECT_DIR$/../lxz-ceshi" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../lxz-ceshi/pom.xml" />
+        <option value="$PROJECT_DIR$/../http-request/pom.xml" />
+        <option value="$PROJECT_DIR$/../com.zxl.parseq/parseq/pom.xml" />
+        <option value="$PROJECT_DIR$/../com.zxl.Hystrix/com.lxz.Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/../metrics/metrics-jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/../metrics/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
+
