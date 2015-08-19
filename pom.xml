@@ -34,23 +34,23 @@
             <version>${slf4j.version}</version>
         </dependency>
         <!--Java Commons Logging redirect to slf4j -->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
             <version>${slf4j.version}</version>
-        </dependency>
+        </dependency>-->
         <!--Java Util Logging redirect to slf4j -->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jul-to-slf4j</artifactId>
             <version>${slf4j.version}</version>
-        </dependency>
+        </dependency>-->
         <!--Apache log4j redirect to slf4j -->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
             <version>${slf4j.version}</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -129,6 +129,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>4.0.6.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-logging</artifactId>
+                    <groupId>commons-logging</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

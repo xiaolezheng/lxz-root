@@ -34,6 +34,8 @@
     <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-servlet" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/../metrics/metrics-servlets" />
     <file type="web" url="file://$PROJECT_DIR$/../lxz-ceshi" />
+    <file type="web" url="file://$USER_HOME$/qunar/git/notify/notify-main" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -45,6 +47,8 @@
         <option value="$PROJECT_DIR$/../com.zxl.Hystrix/com.lxz.Hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/../metrics/metrics-jvm/pom.xml" />
         <option value="$PROJECT_DIR$/../metrics/pom.xml" />
+        <option value="$PROJECT_DIR$/../vert.x/pom.xml" />
+        <option value="$PROJECT_DIR$/../vertx-examples/pom.xml" />
       </list>
     </option>
   </component>
@@ -52,4 +56,3 @@
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>
-

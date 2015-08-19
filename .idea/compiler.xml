@@ -22,42 +22,426 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="com.lxz.Hystrix" />
-        <module name="http-request" />
-        <module name="lxz-ceshi" />
-        <module name="metrics-annotation" />
-        <module name="metrics-benchmarks" />
-        <module name="metrics-core" />
-        <module name="metrics-ehcache" />
-        <module name="metrics-ganglia" />
-        <module name="metrics-graphite" />
-        <module name="metrics-healthchecks" />
-        <module name="metrics-httpasyncclient" />
-        <module name="metrics-httpclient" />
-        <module name="metrics-jdbi" />
-        <module name="metrics-jersey" />
-        <module name="metrics-jersey2" />
-        <module name="metrics-jetty8" />
-        <module name="metrics-jetty9" />
-        <module name="metrics-jetty9-legacy" />
-        <module name="metrics-json" />
-        <module name="metrics-jvm" />
-        <module name="metrics-log4j" />
-        <module name="metrics-log4j2" />
-        <module name="metrics-logback" />
-        <module name="metrics-servlet" />
-        <module name="metrics-servlets" />
         <module name="parseq" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jetty8" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jetty8" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-ganglia" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-ganglia" />
+      </profile>
+      <profile default="false" name="Annotation profile for lxz-ceshi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="lxz-ceshi" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-httpasyncclient" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-httpasyncclient" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-servlets" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-servlets" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-ehcache" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-ehcache" />
+      </profile>
+      <profile default="false" name="Annotation profile for http-request" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="http-request" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jersey" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jersey" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-servlet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-servlet" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-log4j" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-log4j" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-healthchecks" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-healthchecks" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-log4j2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-log4j2" />
+      </profile>
+      <profile default="false" name="Annotation profile for com.lxz.Hystrix" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="com.lxz.Hystrix" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-json" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-json" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-annotation" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-annotation" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-httpclient" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-httpclient" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-logback" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-logback" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jvm" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jvm" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jetty9" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jetty9" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jetty9-legacy" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jetty9-legacy" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jdbi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jdbi" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-benchmarks" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-benchmarks" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-graphite" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-graphite" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-jersey2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-jersey2" />
+      </profile>
+      <profile default="false" name="Annotation profile for jactor2-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for jactor2-metrics" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for jactor2-coreMt" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for jactor2-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for scm-notify-biz" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for scm-notify-model" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for scm-notify-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for scm-notify-main" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for scm-notify-dao" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for scm-notify-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for vertx-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="vertx-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for openshift-example" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="openshift-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for unit-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="unit-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for metrics-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="metrics-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for mail-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="mail-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for maven-verticle" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="maven-verticle" />
+      </profile>
+      <profile default="false" name="Annotation profile for core-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="core-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for web-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="web-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for rx-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="rx-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for maven-simplest" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="maven-simplest" />
+      </profile>
+      <profile default="false" name="Annotation profile for service-provider" enabled="true">
+        <sourceOutputDir name="src/main/generated" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.vertx.codegen.CodeGenProcessor" />
+        <processorPath useClasspath="true" />
+        <module name="service-provider" />
+      </profile>
+      <profile default="false" name="Annotation profile for maven-service-factory-api" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="maven-service-factory-api" />
+      </profile>
+      <profile default="false" name="Annotation profile for maven-service-factory-verticle" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="maven-service-factory-verticle" />
+      </profile>
+      <profile default="false" name="Annotation profile for hello-verticle-fatjar" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hello-verticle-fatjar" />
+      </profile>
+      <profile default="false" name="Annotation profile for vertx-docker-example-fabric" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="vertx-docker-example-fabric" />
+      </profile>
+      <profile default="false" name="Annotation profile for vertx-docker-example" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="vertx-docker-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for hello-verticle" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hello-verticle" />
+      </profile>
+      <profile default="false" name="Annotation profile for jdbc-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jdbc-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for redis-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="redis-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-example" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for springboot-example" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="springboot-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for service-consumer" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="service-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.lxz.Hystrix" target="1.6" />
+      <module name="core-examples" target="1.8" />
+      <module name="examples-utils" target="1.8" />
+      <module name="hello-verticle" target="1.8" />
+      <module name="hello-verticle-fatjar" target="1.8" />
       <module name="http-request" target="1.5" />
+      <module name="http-request-parent" target="1.5" />
+      <module name="jactor2" target="1.5" />
+      <module name="jactor2-core" target="1.7" />
+      <module name="jactor2-coreMt" target="1.7" />
+      <module name="jactor2-examples" target="1.7" />
+      <module name="jactor2-metrics" target="1.7" />
+      <module name="jdbc-examples" target="1.8" />
       <module name="lxz-ceshi" target="1.8" />
+      <module name="lxz-root" target="1.5" />
+      <module name="mail-examples" target="1.8" />
+      <module name="maven-service-factory-api" target="1.8" />
+      <module name="maven-service-factory-examples" target="1.5" />
+      <module name="maven-service-factory-verticle" target="1.8" />
+      <module name="maven-simplest" target="1.8" />
+      <module name="maven-verticle" target="1.8" />
       <module name="metrics-annotation" target="1.6" />
       <module name="metrics-benchmarks" target="1.6" />
       <module name="metrics-core" target="1.6" />
       <module name="metrics-ehcache" target="1.6" />
+      <module name="metrics-examples" target="1.8" />
       <module name="metrics-ganglia" target="1.6" />
       <module name="metrics-graphite" target="1.6" />
       <module name="metrics-healthchecks" target="1.6" />
@@ -77,7 +461,29 @@
       <module name="metrics-parent" target="1.6" />
       <module name="metrics-servlet" target="1.6" />
       <module name="metrics-servlets" target="1.6" />
+      <module name="openshift-example" target="1.8" />
+      <module name="parseq" target="1.5" />
+      <module name="redis-examples" target="1.8" />
+      <module name="rx-examples" target="1.8" />
+      <module name="scm-notify" target="1.6" />
+      <module name="scm-notify-biz" target="1.6" />
+      <module name="scm-notify-common" target="1.6" />
+      <module name="scm-notify-dao" target="1.6" />
+      <module name="scm-notify-main" target="1.6" />
+      <module name="scm-notify-model" target="1.6" />
+      <module name="scm-notify-service" target="1.6" />
+      <module name="service-consumer" target="1.8" />
+      <module name="service-provider" target="1.8" />
+      <module name="service-proxy-examples" target="1.5" />
+      <module name="spring-example" target="1.8" />
+      <module name="spring-examples" target="1.5" />
+      <module name="springboot-example" target="1.8" />
+      <module name="unit-examples" target="1.8" />
+      <module name="vertx-core" target="1.8" />
+      <module name="vertx-docker-example" target="1.8" />
+      <module name="vertx-docker-example-fabric" target="1.8" />
+      <module name="vertx-examples" target="1.5" />
+      <module name="web-examples" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
-
