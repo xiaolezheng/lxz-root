@@ -1,1 +1,16 @@
-# Created by .ignore support plugin (hsz.mobi)
+*.iml
+*.swp
+*.txt*.txt*.iml
+*/classes/
+.DS_Store
+.classpath
+.idea/
+.project
+.settings
+/target
+classes
+custom.cfg
+md5sum
+target/
+tmp/
+com.haizhi.web.apiserver/src/develop/bin/source.sh
